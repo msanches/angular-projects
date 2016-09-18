@@ -7,15 +7,14 @@ header h3{font: 1.4em YanoneKaffeesatz, sans-serif;}
 .tabs-nav {width: 90%; margin: auto; padding: 6px 0 8px 0; list-style: none;}
 .tabs-nav li {display: inline;}
 .tabs-nav a {
-	font: 1.2em YanoneKaffeesatz, sans-serif;
-	width: 23.5%;
+	font: 1.1em YanoneKaffeesatz, sans-serif;
+	width: 18.6%;
 	display:inline-block;
 	border: 1px solid #ddd;
 	/*border-bottom: none;*/
 	padding: 10px;
 	cursor: pointer;
 	border-radius: 2px 2px 0 0;
-	font-size: 15px;
 	background: #fff;
 	text-align: center;
 }
