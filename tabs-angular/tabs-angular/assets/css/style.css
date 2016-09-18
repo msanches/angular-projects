@@ -1,0 +1,36 @@
+@font-face {font-family: "YanoneKaffeesatz"; src: url("../fonts/YanoneKaffeesatz-Regular.ttf");}
+@font-face {font-family: "OpenSans"; src: url("../fonts/OpenSans-Regular.ttf");}
+.w3-indigo{background-color: #0068ad!important;}
+
+header h3{font: 1.4em YanoneKaffeesatz, sans-serif;}
+.tabs{background: #F8F8FF; position: fixed;  top: 45px;  width: 100%;}
+.tabs-nav {width: 90%; margin: auto; padding: 6px 0 8px 0; list-style: none;}
+.tabs-nav li {display: inline;}
+.tabs-nav a {
+	font: 1.2em YanoneKaffeesatz, sans-serif;
+	width: 23.5%;
+	display:inline-block;
+	border: 1px solid #ddd;
+	/*border-bottom: none;*/
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 2px 2px 0 0;
+	font-size: 15px;
+	background: #fff;
+	text-align: center;
+}
+.tabs-nav .active {
+	background: #0068ad!important;
+	color: #fff;
+	/*border-bottom: 1px solid #fff;
+	margin-bottom: -10px;*/
+}
+.tabs-container{margin: 110px 15px 0 15px; }
+.tab-content {
+	border: 1px solid #ddd;
+	padding: 20px;
+	margin-top: 5px;
+	min-height: 300px;
+}
+.tab-content h3 {font: 1.5em YanoneKaffeesatz, sans-serif;}
+p {margin-top: 15px; font-size: 12px;}
