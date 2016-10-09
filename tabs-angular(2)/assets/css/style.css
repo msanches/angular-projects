@@ -1,0 +1,67 @@
+@font-face {font-family: "YanoneKaffeesatz"; src: url("../fonts/YanoneKaffeesatz-Regular.ttf");}
+@font-face {font-family: "OpenSans"; src: url("../fonts/OpenSans-Regular.ttf");}
+.w3-indigo{background-color: #0068ad!important;}
+
+header h3{font: 1.4em YanoneKaffeesatz, sans-serif;}
+.container{background: #F8F8FF; position: fixed;  top: 45px;  width: 100%;}
+.container p {margin: 5px 0 0 0; font: 1.2em YanoneKaffeesatz, sans-serif;}
+
+.w3-row{margin: 0;padding: 0;}
+.weekdays{margin: 0; padding: 0 0 0 15px;}
+.weekdays li{display: inline-block; width: 12%; text-align: center; font: 0.8em OpenSans;}
+.weekends{background-color: #eee;}
+.days {margin: 0; padding: 0 0 5px 15px;}
+.days li{display: inline-block; width: 12%; text-align: center; font: 0.9em OpenSans;}
+.days li .active {padding: 3px 5px;	background: #0068ad; color: white; border-radius: 50%;}
+.tabs-container{margin: 130px 15px 0 15px;}
+.tab-content {list-style: none;}
+.programacao{list-style-type: none; padding: 0;}
+.titulo {margin-left: 5px; padding: 5px 0 10px 5px; border-bottom: 1px solid #eee; font:0.9em OpenSans; min-height: 50px;}
+.datahora{padding: 5px; font: 0.9em OpenSans;}
+/*
+.circulo {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	z-index: 5;
+	background: #000;
+}
+
+.dentro {
+	width: 50px;
+	text-align: center;
+	color: black;
+	vertical-align: center;
+	line-height: 1.9em;
+}
+
+.tabs{background: #F8F8FF; position: fixed;  top: 45px;  width: 100%;}
+.tabs-nav {width: 90%; margin: auto; padding: 6px 0 8px 0; list-style: none;}
+.tabs-nav li {display: inline;}
+.tabs-nav a {
+	font: 1.2em YanoneKaffeesatz, sans-serif;
+	width: 23.5%;
+	display:inline-block;
+	border: 1px solid #ddd;
+
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 2px 2px 0 0;
+	font-size: 15px;
+	background: #fff;
+	text-align: center;
+}
+
+.tabs-nav .active {
+	background: #0068ad!important;
+	color: #fff;
+	margin-bottom: -10px;
+}
+.tab-content {
+	border: 1px solid #ddd;
+	padding: 20px;
+	margin-top: 5px;
+	min-height: 300px;
+}
+.tab-content h3 {font: 1.5em YanoneKaffeesatz, sans-serif;}
+*/
